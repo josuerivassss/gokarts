@@ -1,8 +1,8 @@
 package karts;
 
-public class KartInfantil extens Kart{
+public class KartInfantil extends Kart{
 	private double precio;
-	private static final PRECIOINFANTIL=200;
+	private static final double PRECIOINFANTIL = 200;
 	
 	public KartInfantil(int numero, Tipo tipo, Estado estado, doble precio){
 		super(numero, tipo, estado);
