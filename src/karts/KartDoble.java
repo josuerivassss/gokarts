@@ -1,8 +1,8 @@
 package karts;
 
-public class KartDoble extens Kart{
+public class KartDoble extends Kart{
 	private double precio;
-	private static final PRECIODOBLE=400;
+	private static final double PRECIODOBLE=400;
 	public artDoble(int numero, Tipo tipo, Estado estado, doble precio){
 		super(numero, tipo, estado);
 		this.precio = PRECIODOBLE;
